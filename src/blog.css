@@ -1,7 +1,19 @@
+.navbar {
+    background-color: white;
+}
+
 .navbar-font {
     font-family: 'Russo One', sans-serif;
+    color: #5fe717;
+}
+
+.main-container {
+    height:100%;
+    width:100%;
 }
 
 .tall-border {
     border: solid black 4px;
+    height:100%;
+    width:20%;
 }
