@@ -1,19 +1,118 @@
-.navbar {
-    background-color: white;
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
 }
 
-.navbar-font {
-    font-family: 'Russo One', sans-serif;
-    color: #5fe717;
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
 }
 
-.main-container {
-    height:100%;
-    width:100%;
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
 }
 
-.tall-border {
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+padding-top: 3%;
+    font-family: 'Exo', sans-serif;
+}
+
+/* Nav links */
+.blog-nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+    color: #555555;
+    text-decoration: none;
+}
+
+
+#festgAM {
+    color: black;
+    font-size: 150%;
+}
+
+#my-personal-blog {
+    color: black;
+}
+
+.blog-nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+
+#blog-banner-pic {
+    width: 80%;
+    margin-left: 10%
+}
+
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+}
+.blog-description {
+    font-size: 20px;
+    color: #999;
+    text-align: center;
+}
+
+#posts {
+    text-align: center;
     border: solid black 4px;
-    height:100%;
-    width:20%;
+}
+
+#right-block {
+    border: solid black 4px;
+}
+
+
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.blog-description {
+    font-size: 20px;
+    color: #999;
 }
