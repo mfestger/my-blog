@@ -96,13 +96,16 @@ padding-top: 3%;
     text-align: center;
 }
 
-#posts {
-    text-align: center;
-    border: solid black 4px;
+#left-buffer {
+    border: solid red 3px;
 }
 
-#right-block {
-    border: solid black 4px;
+#posts {
+    text-align: center;
+}
+
+#right-buffer {
+    border: solid blue 4px;
 }
 
 

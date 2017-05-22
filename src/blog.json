@@ -1,23 +1,9 @@
 [
     {
-        "title": "First",
+        "title": "hello_world",
         "content": "blahblahblahblahblahblahblahblahblahblahbla",
-        "categories": [ "gibberish", " gibberish2"
+        "categories": [ "gibberish"
         ],
         "date": "May 20th, 2017"
-    }, {
-        "title": "Second",
-        "content": "blah blah",
-        "categories": [ "gibberish"
-
-        ],
-        "date": "May 20, 2017"
-    }, {
-        "title": "Third",
-        "content": "blah blah",
-        "categories": [ "gibberish"
-
-        ],
-        "date": "May 20, 2017"
     }
 ]
