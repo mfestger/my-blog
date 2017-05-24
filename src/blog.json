@@ -1,16 +1,21 @@
 [
-    {
-        "title": "hello_world",
-        "content": "Thus starts the beginning of a new endeavor - a self created, self promoted, and self designed blog. Outright, understand that if you are reading this (you rock - thank you!) then understand the intent of this blog is to chronical my thoughts on an array of topics, mostly centered around my experiences as a software engineer, a basketball fanatic (Go Spurs Go!), and video games. I will venture into other topics from time to time but you can expect me to consistently post about these specific topics overall. ",
-        "categories": [ "| My_First_Post  ", "Tech  ", "Basketball |"
-        ],
-        "date": "May 23rd, 2017"
-    },
-
   {
-    "title": "hello_world 2",
+    "title": "hello_world",
     "content": "Thus starts the beginning of a new endeavor - a self created, self promoted, and self designed blog. Outright, understand that if you are reading this (you rock - thank you!) then understand the intent of this blog is to chronical my thoughts on an array of topics, mostly centered around my experiences as a software engineer, a basketball fanatic (Go Spurs Go!), and video games. I will venture into other topics from time to time but you can expect me to consistently post about these specific topics overall. ",
-    "categories": [ "| My_First_Post  ", "Tech  ", "Basketball |"
+    "categories": [
+      "| My_First_Post  ",
+      "Tech  ",
+      "Basketball |"
+    ],
+    "date": "May 23rd, 2017"
+  },
+  {
+    "title": "hello_world2",
+    "content": "Thus starts the beginning of a new endeavor - a self created, self promoted, and self designed blog. Outright, understand that if you are reading this (you rock - thank you!) then understand the intent of this blog is to chronical my thoughts on an array of topics, mostly centered around my experiences as a software engineer, a basketball fanatic (Go Spurs Go!), and video games. I will venture into other topics from time to time but you can expect me to consistently post about these specific topics overall. ",
+    "categories": [
+      "| My_First_Post  ",
+      "Tech  ",
+      "Basketball |"
     ],
     "date": "May 23rd, 2017"
   }

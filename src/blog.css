@@ -52,12 +52,6 @@ padding-top: 3%;
     text-decoration: none;
 }
 
-#main-container {
-    background-color: #333333;
-    color: white;
-}
-
-
 .blog-nav .active:after {
     position: absolute;
     bottom: 0;
@@ -70,6 +64,13 @@ padding-top: 3%;
     border-right: 5px solid transparent;
     border-bottom: 5px solid;
     border-left: 5px solid transparent;
+}
+
+/*The big container*/
+
+#main-container {
+    background-color: #333333;
+    color: white;
 }
 
 .container-fluid {
@@ -121,7 +122,10 @@ padding-top: 3%;
     text-align: center;
     font-family: 'Exo', sans-serif;
     background-color: #333333;
+}
 
+.posts-individual-designs {
+    border: solid red 5px;
 }
 
 

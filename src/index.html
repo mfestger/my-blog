@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-
+<!--Add JSON content at the bottom-->
 </head>
 <body>
 <div class="blog-masthead">
@@ -32,6 +32,7 @@
 
     <div id="right-buffer" class="col-md-4">
         <div id="about-me-section">
+            <div class="about-me-text"><font size="10">About Me></font> </div>
             <img id="me-pic" src="http://i.imgur.com/PYCDs5s.jpg"></img>
             <div class="about-me-text">
                 My name is <strong>Mike Festger.</strong>
@@ -53,7 +54,7 @@
         type: "GET"
     }).done(function(data) {
         for(var c = 0; c < data.length; c++){
-            data.reverse();
+          //  data.reverse();
             console.log(data[c]);
             var postSpace = "<p>";
             var postBold = "<h1>";
@@ -62,13 +63,9 @@
             postDate += data[c].date + "</h3>";
             postSpace += data[c].categories + "</p>";
             postSpace += data[c].content + "</p>";
-
             $('#posts').append(postBold);
             $('#posts').append(postDate);
             $('#posts').append(postSpace);
-
-
-
         }
     });
 
