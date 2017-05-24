@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: #555;
+    color: white;
+
 }
 
 h1, .h1,
@@ -50,15 +51,7 @@ padding-top: 3%;
 }
 
 
-#festgAM {
-    color: black;
-    font-size: 150%;
-}
 
-#my-personal-blog {
-    font-family: 'Exo', sans-serif;
-    color: black;
-}
 
 .blog-nav .active:after {
     position: absolute;
@@ -74,9 +67,20 @@ padding-top: 3%;
     border-left: 5px solid transparent;
 }
 
+#festgAM {
+    color: black;
+    font-size: 150%;
+}
+
+#my-personal-blog {
+    font-family: 'Exo', sans-serif;
+    color: black;
+}
+
 #blog-banner-pic {
-    width: 80%;
-    margin-left: 10%
+    width: 88%;
+    margin-left: 6%;
+    margin-bottom: 7%;
 }
 
 
@@ -111,19 +115,27 @@ padding-top: 3%;
 }
 
 #right-buffer {
-    border: solid blue 4px;
+
 
 }
 
 #about-me-section {
-    background-color: #d7d7d7
+    background-color: #d7d7d7;
+    opacity: .8;
 }
 
 #me-pic {
-    height: 100px;
-    width: 40%;
-    margin: auto;
-    background-color: yellow;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 5%;
+
+}
+
+.about-me-text {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    padding: 5%;
 }
 
 .blog-title {
