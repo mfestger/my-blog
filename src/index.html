@@ -28,12 +28,12 @@
     <img id="blog-banner-pic" src="http://i.imgur.com/rstSOSa.jpg">
 </div>
 <div id="main-container" class="col-md-12">
-    <div id="posts" class="container col-md-8"></div>
+    <div class=" posts container col-md-8"></div>
 
     <div id="right-buffer" class="col-md-4">
         <div id="about-me-section">
-            <div class="about-me-text"><font size="10">About Me></font> </div>
-            <img id="me-pic" src="http://i.imgur.com/PYCDs5s.jpg"></img>
+            <div class="about-me-text"><font size="10">About Me</font> </div>
+            <img id="me-pic" src="http://i.imgur.com/PYCDs5s.jpg">
             <div class="about-me-text">
                 My name is <strong>Mike Festger.</strong>
             </div>
@@ -63,9 +63,12 @@
             postDate += data[c].date + "</h3>";
             postSpace += data[c].categories + "</p>";
             postSpace += data[c].content + "</p>";
-            $('#posts').append(postBold);
-            $('#posts').append(postDate);
-            $('#posts').append(postSpace);
+            $('.posts').append(postBold);
+            $('.posts').append(postDate);
+            $('.posts').append(postSpace);
+
+
+            $('.posts').addClass('posts-individual-designs')
         }
     });
 

@@ -118,10 +118,11 @@ padding-top: 3%;
     background-color: #333333;
 }
 
-#posts {
+.posts {
     text-align: center;
     font-family: 'Exo', sans-serif;
     background-color: #333333;
+    /*border: solid red 4px;*/
 }
 
 .posts-individual-designs {
